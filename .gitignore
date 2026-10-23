@@ -1,0 +1,15 @@
+# data & outputs
+data/
+*.dcm
+*.png
+!docs/*.png
+!results/*.png
+# model files (distribute via GitHub Releases or Git LFS)
+*.pth
+*.pt
+!weights/README.md
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyderproject

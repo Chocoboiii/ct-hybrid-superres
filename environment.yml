@@ -1,0 +1,14 @@
+name: ctsr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-image
+  - opencv
+  - pydicom
+  - matplotlib
+  - pip
+# PyTorch is installed separately, see README ("Reproduce"), so you get the build that matches your GPU.
