@@ -68,7 +68,9 @@ python tests/test_core.py                                   # sanity tests, no G
 # 1) data (LIDC-IDRI from TCIA, not redistributed here)
 python scripts/prepare_data.py --lidc-root PATH/TO/LIDC-IDRI --out data/
 
-# 2) train (see training/README.md) or download weights into weights/
+# 2) train (see training/README.md) or download the weights from
+#    https://github.com/Chocoboiii/ct-hybrid-superres/releases/latest
+#    and put swinir_ct_50000_G.pth in weights/
 
 # 3) evaluate, then test statistically
 python scripts/evaluate.py --data-dir data/test_HR --checkpoint weights/swinir_ct_50000_G.pth \
